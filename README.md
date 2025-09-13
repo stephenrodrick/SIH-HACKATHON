@@ -1,30 +1,97 @@
-# Microplastic detection system
+# 🌍 Microplastic Detection System  
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+An AI-powered platform developed for **Smart India Hackathon (SIH)** to detect and classify microplastics in various sources such as water bodies, packaging, and textiles. This solution integrates **spectral data analysis, polymer identification, and visualization tools** to support research, environmental monitoring, and waste management.  
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/alexediting69-gmailcoms-projects/v0-microplastic-detection-system)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/xiLwnYdtRsY)
+---
 
-## Overview
+## 🚀 Features  
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+- 📊 **Microplastic Detection** – Analyze uploaded images/spectral data for polymer and pigment identification.  
+- 🌈 **Color & Pigment Mapping** – Uses absorbance wavelength ranges to classify pigments in plastics.  
+- 🧪 **Polymer Carrier Identification** – Detects common polymers like PET, PE, PP, PVC.  
+- 🗺️ **Source Tracing** – Links detected plastics to possible source items (e.g., textiles, bottles, packaging).  
+- ☁️ **Web Deployment** – Runs on **Next.js + Vercel** for fast, scalable deployment.  
 
-## Deployment
+---
 
-Your project is live at:
+## 🛠️ Tech Stack  
 
-**[https://vercel.com/alexediting69-gmailcoms-projects/v0-microplastic-detection-system](https://vercel.com/alexediting69-gmailcoms-projects/v0-microplastic-detection-system)**
+- **Frontend**: Next.js (TypeScript, React, TailwindCSS)  
+- **Backend**: Node.js (API routes)  
+- **ML/Detection Logic**: Python (planned integration), spectral dataset mapping  
+- **Deployment**: Vercel  
+- **Other Tools**: GitHub Actions (CI/CD), ESLint, Prettier  
 
-## Build your app
+---
 
-Continue building your app on:
+## 📂 Project Structure  
 
-**[https://v0.app/chat/projects/xiLwnYdtRsY](https://v0.app/chat/projects/xiLwnYdtRsY)**
+SIH-HACKATHON/
+│── app/                # Next.js app router pages
+│── components/         # UI components
+│── lib/                # Helper functions / utilities
+│── public/             # Static assets
+│── styles/             # Global styles
+│── package.json        # Dependencies & scripts
+│── tsconfig.json       # TypeScript config
+│── next.config.mjs     # Next.js configuration
+│── README.md           # Project documentation
 
-## How It Works
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## ⚙️ Installation  
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/stephenrodrick/SIH-HACKATHON.git
+   cd SIH-HACKATHON
+
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 🌐 Deployment
+
+This project is deployed on **Vercel**. Every push to `main` branch auto-deploys via GitHub → Vercel integration.
+
+---
+
+## 🧩 Future Enhancements
+
+* 🔬 Integration of **spectral analysis + ML models** for accurate detection.
+* 📷 Support for **image uploads** to classify polymer microplastics visually.
+* 📡 Real-time **IoT sensor integration** for water quality monitoring.
+* 📈 Dashboard with **analytics & reporting** for environmental agencies.
+
+---
+
+## 👥 Team
+
+Developed as part of **SIH Hackathon** by:
+
+* **Stephen Rodrick** (Lead Developer & Project Coordinator)
+* Hackathon Team Members (add names here)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – feel free to use, modify, and contribute.
+
+## Website Link 
+https://v0-microplastic-detection-system.vercel.app/
+
+Do you also want me to **add a workflow diagram (PNG/SVG)** in the repo and link it inside this README (like `![Workflow](public/workflow.png)`)? That would make it more visually appealing on GitHub.
+```
